@@ -1,3 +1,5 @@
-D'abord ETUDIEZ Les dfférentes couches de "Circuar Buffer" (complétez là où c'est nécessaire)
-![DDD2](https://user-images.githubusercontent.com/38082725/194346536-f5b72615-1135-4930-bcc4-d55eb7994112.png)
-![DDD3](https://user-images.githubusercontent.com/38082725/194359181-e86b7fea-53e8-4121-8662-1e596e2a72f2.png)
+### Membre du groupe(TD2):
+-Mohammed Ayoub SAIDI\
+-Faouzi BAKKALI\
+-Imad Eddine TABYAOUI\
+![Execution](https://user-images.githubusercontent.com/113514136/194715802-4cb24f2a-7091-4307-a585-3ae3a04311c7.png)
