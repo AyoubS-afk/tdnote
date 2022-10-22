@@ -67,16 +67,15 @@ static FILE *auxiliary_open(char *prefix, char *suffix)
 {
     int prefix_length = strlen(prefix);
     int suffix_length = strlen(suffix);
-    char filename[prefix_length+suffix_length+1];
-    strncpy(filename,prefix,prefix_length);
-    strncpy(filename +prefix_length, suffix,suffix_length+1);
-    FILE *flow = fopen(filename,"r+");
-    if(flow==NULL)
-        flow=fopen(filename,"r+");
-    if(flow==NULL);
-        perror(filename);
-		
-    return flow;
+    char name[prefix_length + suffix_length + 1];
+    strncpy(name, prefix, prefix_length);
+    strncpy(name + prefix_length, suffix, suffix_length + 1);
+    FILE *stream = fopen(name, "r+");
+    if (stream == NULL)
+        stream = fopen(name, "w+");
+    if (stream == NULL)
+        perror(name);
+    return stream;
 	
 }
 
